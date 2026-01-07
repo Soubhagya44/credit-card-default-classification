@@ -3,14 +3,11 @@
 
 Credit Card Default Classification
 A Machine Learning Project to Predict Credit Card Default Risk
-
-📝 2. Project Description
+2. Project Description
 
 A brief overview of what your project does:
 
-This project builds a machine learning model to predict whether a customer will default on their credit card payment. It involves data preprocessing, exploratory data analysis (EDA), model training, evaluation, and prediction. The aim is to assist banks and financial institutions in mitigating credit risks. 
-GitHub
-
+This project builds a machine learning model to predict whether a customer will default on their credit card payment. It involves data preprocessing, exploratory data analysis (EDA), model training, evaluation, and prediction. The aim is to assist banks and financial institutions in mitigating credit risks.
 🎯 3. Objective
 
 Explain the goal of the project:
@@ -19,11 +16,7 @@ Predict credit card defaults using historical customer data.
 
 Train one or more classification models.
 
-Evaluate model performance using metrics like accuracy, precision, recall, F1-score. 
-Medium
-
-(Optional) Deploy the model (e.g., as a web app).
-
+Evaluate model performance using metrics like accuracy, precision, recall, F1-score.
 📂 4. Dataset
 
 Describe the dataset used:
@@ -42,9 +35,7 @@ Payment history (PAY_0, PAY_2,... PAY_6)
 
 Bill statements and previous payments
 
-Target Variable: Default next month (0 = No, 1 = Yes) 
-INSEAD Data Analytics
-
+Target Variable: Default next month (0 = No, 1 = Yes)
 🔧 5. Tools & Tech Stack
 
 List the main technologies you used:
@@ -60,7 +51,6 @@ scikit-learn
 Imbalanced-learn for handling class imbalance (SMOTE)
 
 (Optional) Streamlit / Flask for web deployment
-
 📊 6. Methodology
 6.1 Data Preprocessing
 
@@ -106,21 +96,17 @@ F1-Score
 
 Confusion Matrix
 
-ROC-AUC Score 
-Medium
-
+ROC-AUC Score
 📈 7. Results
 
 Summarize the performance of your models (example):
-
-Model	Accuracy	F1-Score	ROC-AUC
-Logistic Regression	0.78	0.75	0.82
-Random Forest	0.81	0.79	0.85
-XGBoost	0.83	0.80	0.88
+| Model               | Accuracy | F1-Score | ROC-AUC  |
+| ------------------- | -------- | -------- | -------- |
+| Logistic Regression | 0.78     | 0.75     | 0.82     |
+| Random Forest       | 0.81     | 0.79     | 0.85     |
+| XGBoost             | **0.83** | **0.80** | **0.88** |
 📦 8. Project Structure
-
 Explain what each file/folder in your repo contains:
-
 ├── data/                     # Dataset files
 ├── notebooks/                # EDA & model notebooks
 ├── models/                   # Saved ML models
@@ -128,22 +114,17 @@ Explain what each file/folder in your repo contains:
 ├── requirements.txt          # Dependencies
 └── README.md
 
-🚀 9. How to Run
 
+🚀 9. How to Run
 Step-by-step instructions for a user:
+
 
 Clone the repo
 
+
 Install dependencies:
-
 pip install -r requirements.txt
-
-
-Run Notebook or script
-
-(If deployed) Access the web app at: http://your-deployment-link
-
-🧠 10. Future Improvements
+10. Future Improvements
 
 Ideas you can add for future work:
 
@@ -155,12 +136,5 @@ Dashboard for visual insights
 
 Add feature importance & explainability plots
 
-📚 11. References
 
-Credit default dataset & other resources:
 
-UCI Default of Credit Card Clients dataset 
-Code
-
-Machine learning classification techniques overview 
-GitHub
