@@ -124,6 +124,7 @@ Clone the repo
 
 Install dependencies:
 pip install -r requirements.txt
+
 10. Future Improvements
 
 Ideas you can add for future work:
